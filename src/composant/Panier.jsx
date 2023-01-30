@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom"
 import { commandeVerif } from "../verif/liste";
 import Alert from "./Alert";
-import { useAlert } from "../../../react-b3-janv2023/jour3-blog/src/hook/useAlert";
+import { useAlert } from "../composant/hook/useAlert";
 import { profileContext } from "../context/profileContext";
 
 const Panier =  () => {
